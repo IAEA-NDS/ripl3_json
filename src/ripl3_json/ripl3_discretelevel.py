@@ -110,15 +110,15 @@ def read_levels(charge):
                     for gl in range(lev + 1, lev + 1 + int(ng)):
                         ## reading gamma lines
                         _, nf, eg, pg, pe, icc = read_gamma_record(lines[gl])
-                    gammas.append(
-                        {
-                            "final_state": int(nf),
-                            "gamma_energy": "%10.4e" % float(eg),
-                            "probability_gamma": "%10.4e" % float(pg),
-                            "probability_electmag": "%10.4e" % float(pe),
-                            "internal_conversion": "%10.4e" % float(icc),
-                        }
-                    )
+                        gammas.append(
+                            {
+                                "final_state": int(nf),
+                                "gamma_energy": "%10.4e" % float(eg),
+                                "probability_gamma": "%10.4e" % float(pg),
+                                "probability_electmag": "%10.4e" % float(pe),
+                                "internal_conversion": "%10.4e" % float(icc),
+                            }
+                        )
 
                 levels.append(
                     {

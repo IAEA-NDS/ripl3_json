@@ -74,6 +74,13 @@
         "spin_notation": "(3-)",
         "gamma_record": [
           {
+            "final_state": 3,
+            "gamma_energy": "1.5460e-01",
+            "probability_gamma": "1.6670e-01",
+            "probability_electmag": "1.6670e-01",
+            "internal_conversion": "0.0000e+00"
+          },
+          {
             "final_state": 2,
             "gamma_energy": "6.2700e-01",
             "probability_gamma": "8.3330e-01",
@@ -99,6 +106,20 @@
         "half_life": null,
         "spin_notation": "(1,2)",
         "gamma_record": [
+          {
+            "final_state": 3,
+            "gamma_energy": "1.1478e+00",
+            "probability_gamma": "2.5370e-01",
+            "probability_electmag": "2.5370e-01",
+            "internal_conversion": "0.0000e+00"
+          },
+          {
+            "final_state": 2,
+            "gamma_energy": "1.6199e+00",
+            "probability_gamma": "3.7310e-01",
+            "probability_electmag": "3.7310e-01",
+            "internal_conversion": "0.0000e+00"
+          },
           {
             "final_state": 1,
             "gamma_energy": "1.7348e+00",
@@ -142,6 +163,27 @@
         "half_life": null,
         "spin_notation": "1+",
         "gamma_record": [
+          {
+            "final_state": 6,
+            "gamma_energy": "8.7970e-01",
+            "probability_gamma": "2.2920e-01",
+            "probability_electmag": "2.2920e-01",
+            "internal_conversion": "0.0000e+00"
+          },
+          {
+            "final_state": 3,
+            "gamma_energy": "2.0253e+00",
+            "probability_gamma": "3.6460e-02",
+            "probability_electmag": "3.6460e-02",
+            "internal_conversion": "0.0000e+00"
+          },
+          {
+            "final_state": 2,
+            "gamma_energy": "2.4993e+00",
+            "probability_gamma": "2.1350e-01",
+            "probability_electmag": "2.1350e-01",
+            "internal_conversion": "0.0000e+00"
+          },
           {
             "final_state": 1,
             "gamma_energy": "2.6142e+00",
